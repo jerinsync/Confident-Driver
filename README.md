@@ -54,7 +54,7 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 
 ---
 
-### ** Car Pass and Destroy Score (Increase)**
+### Car Pass and Destroy Score (Increase)
 - **Description**: Players earn points for:
   - **Passing Cars**: Successfully dodging enemy vehicles without colliding.
   - **Destroying Cars**: Using the shooting mechanic to eliminate enemy cars.
@@ -65,7 +65,7 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 
 ---
 
-### ** Car Cannon Refill Option (Will Arrive on Lane)**
+### Car Cannon Refill Option (Will Arrive on Lane)
 - **Description**: Refills appear as collectible items on the lane.
 
 
