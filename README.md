@@ -3,14 +3,14 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 
 ---
 
-### ** Moving Car Lane**
+### Moving Car Lane
 - **Description**: The car lane dynamically scrolls or moves, creating the illusion of a road in motion. This effect keeps the gameplay immersive and realistic, simulating the experience of driving on a busy street or highway.
 - **Implementation**: This involves a continuous movement of the background texture or lane graphics vertically (or horizontally, if the lane shifts). Speed may gradually increase to enhance the challenge as the game progresses.
 
 
 ---
 
-### ** Moving Cars + Level Increase**
+### Moving Cars + Level Increase
 - **Description**: Enemy or NPC cars continuously spawn and move down the lane, simulating traffic. As the player progresses, the difficulty increases, either by introducing more cars, varying speeds, or adding challenging patterns.
 - **Level Increase Dynamics**: 
   - Higher levels could introduce faster-moving cars or obstacles.
@@ -19,7 +19,7 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 
 ---
 
-### ** Shifting Lane with Mouse Click**
+### Shifting Lane with Mouse Click
 - **Description**: The player's car can change lanes using a mouse click. Clicking on a specific part of the screen or UI button shifts the car to the adjacent lane.
 - **Interaction**:
   - **Left Click**: Move left or right depending on the cursor's position relative to the car.
@@ -27,7 +27,7 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 
 ---
 
-### ** Shooting Car After Refill (with Spacebar)**
+### Shooting Car After Refill (with Spacebar)
 - **Description**: The player's car is equipped with a cannon or weapon that can shoot bullets or projectiles. Shooting is enabled only after collecting a "refill" power-up.
 - **Mechanics**:
   - Bullets can destroy enemy cars or obstacles in the player's path.
@@ -35,7 +35,7 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 - **Interaction**: Pressing the **spacebar** activates the shooting mechanic.
 ---
 
-### ** Pause Menu During Game**
+### Pause Menu During Game
 - **Description**: A menu that pauses the game, allowing players to take a break or access options without losing progress.
 - **Features**:
   - **Resume**: Continues the game.
@@ -45,7 +45,7 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 
 ---
 
-### ** Car Collision (Game Over)**
+### Car Collision (Game Over)
 - **Description**: If the player's car collides with an enemy car or obstacle, the game ends.
 - **Mechanics**:
   - Collision detection is implemented using bounding boxes for all objects.
@@ -66,11 +66,6 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 ---
 
 ### ** Car Cannon Refill Option (Will Arrive on Lane)**
-- **Description**: Refills appear as collectible items on the lane. These items replenish the player's ammo, enabling them to use the shooting mechanic again.
-- **Appearance**:
-  - Refills could be represented as glowing or distinct items to stand out on the lane.
-  - They might spawn at intervals or based on player performance.
-- **Challenge**: Players must maneuver carefully to collect the refill while avoiding obstacles.
+- **Description**: Refills appear as collectible items on the lane.
 
----
 
