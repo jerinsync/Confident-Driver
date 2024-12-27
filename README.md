@@ -70,4 +70,4 @@ A car driving game using OPEN GL library, implementing only Midpoint Line Algori
 ### Car Cannon Refill Option (Will Arrive on Lane)
 - **Description**: Refills appear as collectible items on the lane.
 
-
+Contributors: https://github.com/jerinsync | https://github.com/tamme09 | https://github.com/NabanitaSarker
